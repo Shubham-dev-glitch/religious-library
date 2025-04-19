@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Library</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <!-- Logo -->
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.jpeg" alt="Logo" width="50" height="50">
+      </a>
+
+      <!-- Navbar Toggler for smaller screens -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navigation Links -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Library
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+              <li><a class="dropdown-item" href="hindu.html" target="_blank">Hinduism</a></li>
+              <li><a class="dropdown-item" href="islamic.html" target="_blank">Islamic</a></li>
+              <li><a class="dropdown-item" href="sikh.html" target="_blank">Sikhism</a></li>
+              <li><a class="dropdown-item" href="christ.html" target="_blank">Christianity</a></li>
+              <li><a class="dropdown-item" href="otherbooks.html" target="_blank">Other Books</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="hindu.html" target="_blank">Hinduism</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="islamic.html" target="_blank">Islamic</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contactus">Contact Us</a>
+          </li>
+        </ul>
+      </div>      
+    </div>
+  </nav>
+
+  <!-- Hero Section Slider -->
+  <div id="heroSlider" class="carousel slide" data-bs-ride="carousel">
+    <!-- Indicators -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+    <!-- Slides -->
+    <div class="carousel-inner">
+      <!-- Slide 1 -->
+      <div class="carousel-item active" style="background-image: url('images/slide1.jpeg');">
+        <div class="overlay"></div>
+        <div class="carousel-caption text-center">
+          <h1 class="display-4 fw-bold text-white">Welcome to Our Religious Library</h1>
+          <p class="text-white">Know about your Religion</p>
+        </div>
+      </div>
+      <!-- Slide 2 -->
+      <div class="carousel-item" style="background-image: url('images/slide2.jpeg');">
+        <div class="overlay"></div>
+        <div class="carousel-caption text-center">
+          <h1 class="display-4 fw-bold text-white">Providing Knowledge, Our Mission</h1>
+        </div>
+      </div>
+      <!-- Slide 3 -->
+      <div class="carousel-item" style="background-image: url('images/slide3.jpeg');">
+        <div class="overlay"></div>
+        <div class="carousel-caption text-center">
+          <h1 class="display-4 fw-bold text-white">Read with us</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroSlider" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroSlider" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="description-section">
+    <h2>Welcome to Our Library</h2>
+    <p><b>
+        We are honored to have you here. This platform is a sanctuary of knowledge, bringing together sacred texts and cherished books from various faiths and traditions. Whether you seek inspiration, guidance, or understanding, our collection is curated to nurture your spirit and deepen your connection to the divine.
+        Explore, reflect, and embark on a journey of enlightenment and discovery. Together, let’s celebrate the beauty of faith, wisdom, and unity.
+    </p></b>
+  </div>
+
+  <div class="project-container">
+    <h1><b><u>The Library</u></b></h1>
+
+    <!-- Tabs -->
+    <ul class="nav nav-tabs justify-content-center mb-4" id="projectTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="books-tab" data-bs-toggle="tab" data-bs-target="#books" type="button" role="tab" aria-controls="books" aria-selected="true">Books</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="images-tab" data-bs-toggle="tab" data-bs-target="#images" type="button" role="tab" aria-controls="images" aria-selected="true">Images</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="ringtones-tab" data-bs-toggle="tab" data-bs-target="#ringtones" type="button" role="tab" aria-controls="rintones" aria-selected="true">Ringtones</button>
+      </li>  
+    </ul>
+
+    <!-- Tab Content -->
+    <div class="tab-content">
+      <!-- Books  -->
+      <div class="tab-pane fade show active" id="books" role="tabpanel" aria-labelledby="books-tab">
+
+      </div>
+      <!-- Images  -->
+      <div class="tab-pane fade" id="images" role="tabpanel" aria-labelledby="images-tab">
+        
+      </div>  
+      <!-- Ringtones  -->
+      <div class="tab-pane fade" id="ringtones" role="tabpanel" aria-labelledby="ringtones-tab">
+        
+      </div>
+
+      
+<hr size="20%">
+<div class="split-section">
+  <div class="contact-container">
+  <a id="contactus">
+    <h1>Contact Us</h1>
+    <form class="contact" id="contactForm" action="https://script.google.com/macros/s/AKfycbwGjZa-J59UocPjLFhB4Gi8pZ6PH8jWKYLm5BXwfNMDwHKPaK6_aDB3blJY5O5j90Ar2Q/exec" name="contact-form" method="POST">
+      <div class="mb-3">
+        <label for="name" class="form-label">Full Name</label>
+        <input type="text" class="form-control" id="name" name="name" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email Address</label>
+        <input type="email" class="form-control" id="email" name="email" required>
+      </div>
+      <div class="mb-3">
+        <label for="subject" class="form-label">Subject</label>
+        <input type="text" class="form-control" id="subject" name="subject" required>
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+      </div>
+      <div class="text-center">
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </div>
+    </form>
+  </a>
+  </div>
+
+  <div class="about-container">
+  <a id="aboutus">
+    <h2>About Us</h2>
+    <div class="about-section">
+    <p>
+      Welcome to the Religious Library, your gateway to exploring a wealth of spiritual knowledge and texts. 
+      Our mission is to provide access to sacred scriptures, inspirational books, and resources that guide you 
+      on your journey of faith, understanding, and self-discovery.<br>
+    
+      At the Religious Library, we are committed to fostering a space where people from diverse backgrounds can 
+      come together to learn, share, and grow. Dive into our carefully curated collection and embark on a path 
+      to enlightenment and peace.<br>
+
+      We are students of University of Allahabad, Prayagraj, India. Providing you this Library for the ease of 
+      access of all type of book of all religion at one place.<br>
+
+      If you find this webpage helpfull. Please send us feedback.
+    </div>
+  </a>
+  </div>
+</div>
+<footer class="footer bg-dark text-light pt-5 pb-4">
+  <div class="container">
+    <div class="row">
+      <!-- About Section -->
+      <div class="col-md-4">
+        <h5 class="text-uppercase mb-4 font-weight-bold">About Religious Library</h5>
+        <p>
+          The Religious Library is your sanctuary for exploring spiritual texts, sacred books, and resources 
+          to enrich your journey of faith and understanding. Connect with us to discover a world of wisdom.
+        </p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-4">
+        <h5 class="text-uppercase mb-4 font-weight-bold">Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="index.html" class="text-light text-decoration-none">Home</a></li>
+          <li><a href="#aboutus" class="text-light text-decoration-none">About Us</a></li>
+          <li><a href="#contactus" class="text-light text-decoration-none">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Information -->
+      <div class="col-md-4">
+        <h5 class="text-uppercase mb-4 font-weight-bold">Contact Us</h5>
+        <p><i class="fas fa-envelope"></i> contact@religiouslibrary.com</p>
+        <p><i class="fas fa-phone-alt"></i> +91 6204571266</p>
+
+        <ul class="list-inline mt-3">
+          <li class="list-inline-item">
+            <a href="#" class="text-light fs-4 text-decoration-none"><i class="fab fa-facebook"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#" class="text-light fs-4 text-decoration-none"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#" class="text-light fs-4 text-decoration-none"><i class="fab fa-instagram"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Footer Bottom -->
+    <div class="row mt-4">
+      <div class="col text-center">
+        <p class="mb-0">
+          © 2024 Religious Library. All Rights Reserved | Designed by Shubham Singh.
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <script src="script.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script>
+    async function handleSearch(event) {
+      event.preventDefault();
+      const query = document.getElementById("searchInput").value;
+  
+      try {
+        const response = await fetch(`http://localhost:3000/api/search?q=${encodeURIComponent(query)}`);
+
+        const result = await response.json();
+  
+        if (result.success) {
+          // Redirect to the book's HTML file
+          window.location.href = result.filePath;
+        } else {
+          alert(result.message || "Book not found. Please try another search term.");
+        }
+      } catch (error) {
+        console.error("Error fetching search results:", error);
+        alert("An error occurred while searching. Please try again later.");
+      }
+    }
+  </script>
+
+</body>
+</html>

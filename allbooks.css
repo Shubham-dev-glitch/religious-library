@@ -1,0 +1,148 @@
+.hero-content {
+    position: relative;
+    z-index: 2;
+  }
+
+  .large-text {
+    font-size: 6rem;
+    font-weight: 800;
+    margin: 0;
+  }
+
+.hero-section-ramayan {
+    position: relative;
+    height: 100vh; 
+    background-image: url('images/ramayan2.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: 2px 2px 8px rgb(0, 0, 0);
+  }
+
+  .hero-section-mahabharat {
+    position: relative;
+    height: 100vh; 
+    background-image: url('images/Mahabharata2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: 2px 2px 8px rgb(0, 0, 0);
+  }
+
+  .hero-section-gita {
+    position: relative;
+    height: 100vh; 
+    background-image: url('images/gita1.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: 2px 2px 8px rgb(0, 0, 0);
+  }
+
+
+  .hero-section-quran {
+    position: relative;
+    height: 100vh; 
+    background-image: url('images/quran.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: 2px 2px 8px rgb(0, 0, 0);
+  }
+
+
+  .hero-section-bible {
+    position: relative;
+    height: 100vh; 
+    background-image: url('images/bible4.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: 2px 2px 8px rgb(0, 0, 0);
+  }
+
+  .hero-section-guru {
+    position: relative;
+    height: 100vh; 
+    background-image: url('images/guru.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: 2px 2px 8px rgb(0, 0, 0);
+  }
+
+  .hero-section-puran {
+    position: relative;
+    height: 100vh; 
+    background-image: url('images/Puran2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: 2px 2px 8px rgb(0, 0, 0);
+  }
+
+  .hero-section-vedas {
+    position: relative;
+    height: 100vh; 
+    background-image: url('images/veda1.avif'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: 2px 2px 8px rgb(0, 0, 0);
+  }
+
+  .hero-section-tripitaka {
+    position: relative;
+    height: 100vh; 
+    background-image: url('images/buddh4.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: 2px 2px 8px rgb(0, 0, 0);
+  }
+
+  .hero-section-chalisa {
+    position: relative;
+    height: 100vh; 
+    background-image: url('images/Chalisa.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: 2px 2px 8px rgb(0, 0, 0);
+  }
+
+  .hero-section-other {
+    position: relative;
+    height: 100vh; 
+    background-image: url('images/otherbook.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: 2px 2px 8px rgb(0, 0, 0);
+  }
+
+  .section-title {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bolder;
+  }
+
+  .mt-2{
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+ 
